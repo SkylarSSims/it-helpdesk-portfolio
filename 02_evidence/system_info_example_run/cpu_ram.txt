@@ -1,0 +1,2 @@
+﻿CPU: AMD FX-8800P Radeon R7, 12 Compute Cores 4C+8G 
+Total RAM (GB): 15.94

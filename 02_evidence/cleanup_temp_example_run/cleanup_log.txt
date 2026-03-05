@@ -1,0 +1,6 @@
+﻿[3/3/2026 4:17:02 PM] Starting cleanup. Evidence folder: .\evidence\cleanup_20260303_161702
+[3/3/2026 4:17:02 PM] Target: C:\Users\Owner\AppData\Local\Temp
+[3/3/2026 4:17:03 PM] Found 1286 items
+[3/3/2026 4:17:10 PM] Target: C:\Windows\Temp
+[3/3/2026 4:17:10 PM] Found 0 items
+[3/3/2026 4:17:10 PM] Cleanup complete.

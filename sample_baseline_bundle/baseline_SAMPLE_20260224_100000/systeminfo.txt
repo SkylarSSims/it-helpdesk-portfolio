@@ -1,0 +1,2 @@
+OS Name: Microsoft Windows 11 Pro
+OS Version: 10.0.22631

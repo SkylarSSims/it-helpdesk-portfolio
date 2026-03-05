@@ -1,0 +1,111 @@
+﻿
+Host Name:                 DESKTOP-6OMS5FC
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:   
+Product ID:                00325-95848-22262-AAOEM
+Original Install Date:     3/14/2021, 2:23:17 PM
+System Boot Time:          2/6/2026, 3:45:01 PM
+System Manufacturer:       Dell Inc.
+System Model:              Inspiron 3656
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 21 Model 96 Stepping 1 AuthenticAMD ~2100 Mhz
+BIOS Version:              Dell Inc. 2.2.0, 6/13/2016
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:     16,321 MB
+Available Physical Memory: 7,857 MB
+Virtual Memory: Max Size:  18,753 MB
+Virtual Memory: Available: 7,529 MB
+Virtual Memory: In Use:    11,224 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-6OMS5FC
+Hotfix(s):                 55 Hotfix(s) Installed.
+                           [01]: KB5066130
+                           [02]: KB5028951
+                           [03]: KB4562830
+                           [04]: KB4577586
+                           [05]: KB4580325
+                           [06]: KB4598481
+                           [07]: KB5003791
+                           [08]: KB5011048
+                           [09]: KB5012170
+                           [10]: KB5015684
+                           [11]: KB5072653
+                           [12]: KB5071959
+                           [13]: KB5006753
+                           [14]: KB5007273
+                           [15]: KB5011352
+                           [16]: KB5011651
+                           [17]: KB5014032
+                           [18]: KB5014035
+                           [19]: KB5014671
+                           [20]: KB5015895
+                           [21]: KB5016705
+                           [22]: KB5018506
+                           [23]: KB5020372
+                           [24]: KB5022924
+                           [25]: KB5023794
+                           [26]: KB5025315
+                           [27]: KB5026879
+                           [28]: KB5028318
+                           [29]: KB5028380
+                           [30]: KB5029709
+                           [31]: KB5031539
+                           [32]: KB5032392
+                           [33]: KB5032907
+                           [34]: KB5034224
+                           [35]: KB5036447
+                           [36]: KB5037018
+                           [37]: KB5037240
+                           [38]: KB5037995
+                           [39]: KB5039336
+                           [40]: KB5041579
+                           [41]: KB5043935
+                           [42]: KB5043130
+                           [43]: KB5046823
+                           [44]: KB5050388
+                           [45]: KB5050111
+                           [46]: KB5052916
+                           [47]: KB5054682
+                           [48]: KB5058526
+                           [49]: KB5059504
+                           [50]: KB5063706
+                           [51]: KB5063261
+                           [52]: KB5063979
+                           [53]: KB5066790
+                           [54]: KB5071982
+                           [55]: KB5005699
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     10.0.0.1
+                                 IP address(es)
+                                 [01]: 10.0.0.203
+                                 [02]: fe80::5e33:672d:568b:7fd9
+                                 [03]: 2601:c8:100:3d00:55dc:78f7:e40f:4a01
+                                 [04]: 2601:c8:100:3d00:4039:762a:6916:b57
+                                 [05]: 2601:c8:100:3d00:18f:7904:e1b:992c
+                                 [06]: 2601:c8:100:3d00:11b1:c417:8fa5:9c95
+                                 [07]: 2601:c8:100:3d00::d0b5
+                           [02]: Dell Wireless 1801 802.11bgn
+                                 Connection Name: Wi-Fi
+                                 Status:          Media disconnected
+                           [03]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection 2
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes

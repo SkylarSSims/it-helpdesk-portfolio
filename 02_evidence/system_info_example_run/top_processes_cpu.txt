@@ -1,0 +1,15 @@
+﻿
+Name            CPU
+----            ---
+Iris     330.546875
+rundll32 328.140625
+chrome     314.9375
+explorer   255.9375
+chrome      208.375
+chrome        93.75
+chrome     82.09375
+chrome         79.5
+chrome       73.375
+svchost    67.65625
+
+

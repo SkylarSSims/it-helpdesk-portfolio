@@ -1,0 +1,8 @@
+﻿Windows Baseline Summary
+Timestamp: 3/3/2026 4:21:38 PM
+Run folder: C:\Users\Owner\AppData\Local\Temp\triage\baseline_20260303_162119
+Admin: False
+
+Review disk usage, uptime, OS build, and security controls.
+Escalate if BitLocker/Defender/Firewall violate policy.
+WARNING: Not running as Administrator. Some data may be incomplete.

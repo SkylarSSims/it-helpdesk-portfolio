@@ -1,0 +1,15 @@
+﻿
+Name               WorkingSetMB
+----               ------------
+chrome                    353.9
+chrome                    335.1
+chrome                    281.4
+chrome                      253
+chrome                    242.3
+chrome                    235.8
+chrome                    227.9
+SearchApp                 206.6
+Memory Compression        193.7
+chrome                    174.9
+
+

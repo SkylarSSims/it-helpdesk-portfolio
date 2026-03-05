@@ -1,0 +1,53 @@
+@'
+<#
+cleanup_temp.ps1
+Purpose: Safely clean common temp locations. No registry edits. Logs actions.
+#>
+
+[CmdletBinding(SupportsShouldProcess=$true)]
+param(
+[string]$OutRoot = (Join-Path $env:TEMP "triage")
+)
+
+function NowTs { Get-Date -Format "yyyyMMdd_HHmmss" }
+$ts = NowTs
+$runDir = Join-Path $OutRoot ("cleanup_{0}" -f $ts)
+New-Item -ItemType Directory -Path $runDir -Force | Out-Null
+
+$log = Join-Path $runDir "cleanup_log.txt"
+function Log($m){ ("[{0}] {1}" -f (Get-Date), $m) | Out-File $log -Append -Encoding UTF8 }
+
+$targets = @(
+$env:TEMP,
+"C:\Windows\Temp"
+)
+
+Log "Starting cleanup. Evidence folder: $runDir"
+
+foreach ($t in $targets) {
+if (Test-Path $t) {
+Log "Target: $t"
+try {
+$items = Get-ChildItem -Path $t -Recurse -Force -ErrorAction SilentlyContinue
+Log ("Found {0} items" -f ($items.Count))
+
+foreach ($i in $items) {
+try {
+if ($PSCmdlet.ShouldProcess($i.FullName, "Remove")) {
+Remove-Item -LiteralPath $i.FullName -Recurse -Force -ErrorAction SilentlyContinue
+}
+} catch {
+Log ("Skip/Fail: {0} :: {1}" -f $i.FullName, $_.Exception.Message)
+}
+}
+} catch {
+Log ("Error scanning {0}: {1}" -f $t, $_.Exception.Message)
+}
+} else {
+Log "Missing target path: $t"
+}
+}
+
+Log "Cleanup complete."
+Write-Host "Done. Evidence folder:" $runDir
+'@ | Set-Content -Encoding UTF8 -Path .\cleanup_temp.ps1
